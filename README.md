@@ -10,7 +10,7 @@ This project includes a simple script that **automatically reloads the webpage**
 The following JavaScript function uses `setInterval()` to periodically check a `version.txt` file. If the content of that file changes (indicating a new version of the site), the page is reloaded automatically.
 
 ### How to use
-1. Place auto-refresh.js in your project folder, typically in a js or scripts directory.
+1. Place auto-refresh.js and version.txt in your project folder, typically, the JS file is placed in a js or scripts directory and version.txt file placed in root directory.
 2. Link it in your HTML file where the auto-refresh behavior is needed.
 
 ### Recomendations 
